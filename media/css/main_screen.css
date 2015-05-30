@@ -1,5 +1,9 @@
+body {
+  background-color: #000000;
+  font-family: sans-serif; }
+
 p {
-  background-color: #0003f4; }
+  background-color: #1003f4; }
 
 a {
   background-color: #0200ff; }
@@ -10,7 +14,7 @@ header nav ul {
   background-color: #0000ff; }
 
 article header h1 {
-  background-color: #dddddd; }
+  background-color: #aadd99; }
 article header p {
   background-color: #0000ff; }
 article header details summary {
