@@ -1,11 +1,17 @@
+$unfinished: #66FF66;
+
 body {
-  background-color: #000000;
+  background-color: $unfinished;
   font-family: sans-serif;
 }
 
-p {background-color: #1003f4;}
+p {
+  background-color: #1003f4;
+}
 
-a {background-color: #0200ff;}
+a {
+  background-color: #0200ff;
+}
 
 header {
   h1 {
@@ -35,5 +41,7 @@ article {
 }
 
 footer {
-  p {background-color: #0000ff;}
+  p {
+    background-color: #0000ff;
+  }
 }
