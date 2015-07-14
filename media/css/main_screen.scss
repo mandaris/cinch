@@ -1,25 +1,19 @@
 $unfinished: #66FF66;
 
 body {
-  background-color: $unfinished;
-  font-family: sans-serif;
-}
-
-p {
-  background-color: #1003f4;
-}
-
-a {
-  background-color: #0200ff;
+  // background-color: $unfinished;
+  margin: 1em;
+  //font-family: sans-serif;
 }
 
 header {
   h1 {
-    background-color: #0000ff;
+    background-color: $unfinished;
+    font-family: sans-serif;
   }
   nav{
     ul {
-      background-color: #0000ff;
+      // background-color: #0000ff;
     }
   }
 }
@@ -27,12 +21,10 @@ header {
 article {
   header {
        h1 {
-         background-color: #aadd99;
-       }
-       p {
-        background-color: #0000ff;
+         // background-color: #aadd99;
        }
        details {
+          border: 1px solid #000
          summary {
            background-color: #0000ff;
          }
