@@ -1,19 +1,26 @@
 $unfinished: #66FF66;
+$baseheadersize: 3em;
+$basefontsize: 1em;
 
 body {
   // background-color: $unfinished;
   margin: 1em;
-  //font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 header {
   h1 {
-    background-color: $unfinished;
-    font-family: sans-serif;
+    text-align: center;
+    font-family: serif;
+    font-size: $baseheadersize;
+    margin:0;
   }
   nav{
-    ul {
+    text-align: center;
+    li {
       // background-color: #0000ff;
+      display: inline
+
     }
   }
 }
@@ -21,15 +28,26 @@ header {
 article {
   header {
        h1 {
-         // background-color: #aadd99;
+        background-color: #aadd99;
+        font-size: $baseheadersize - 1;
+        margin-bottom: 0;
+       }
+       h2 {
+        font-size: $baseheadersize - 2;
+        margin-top: 0;
+        margin-bottom: 0;
        }
        details {
-          border: 1px solid #000
+          // border: 1px solid #000;
          summary {
-           background-color: #0000ff;
+           margin-left: 1em;
          }
+         p {
+            margin-left: 3em;
+          }
        }
-  } 
+  }
+
 }
 
 footer {

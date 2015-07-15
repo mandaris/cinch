@@ -1,13 +1,29 @@
 body {
-  margin: 1em; }
-
-header h1 {
-  background-color: #66FF66;
+  margin: 1em;
   font-family: sans-serif; }
 
-article header details {
-  border: 1px solid #000 summary;
-    border-background-color: #0000ff; }
+header h1 {
+  text-align: center;
+  font-family: serif;
+  font-size: 3em;
+  margin: 0; }
+header nav {
+  text-align: center; }
+  header nav li {
+    display: inline; }
+
+article header h1 {
+  background-color: #aadd99;
+  font-size: 2em;
+  margin-bottom: 0; }
+article header h2 {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0; }
+article header details summary {
+  margin-left: 1em; }
+article header details p {
+  margin-left: 3em; }
 
 footer p {
   background-color: #0000ff; }
