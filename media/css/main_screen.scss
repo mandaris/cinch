@@ -37,17 +37,12 @@ article {
         margin-top: 0;
         margin-bottom: 0;
        }
-       details {
-          // border: 1px solid #000;
-         summary {
-           margin-left: 1em;
-         }
-         p {
-            margin-left: 3em;
-          }
-       }
   }
 
+}
+
+.tagitem {
+  background-color: $unfinished
 }
 
 footer {
