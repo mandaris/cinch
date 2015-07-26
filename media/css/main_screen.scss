@@ -1,11 +1,12 @@
 $unfinished: #66FF66;
-$baseheadersize: 3em;
+$baseheadersize: 4em;
 $basefontsize: 1em;
 
 body {
   // background-color: $unfinished;
   margin: 1em;
   font-family: sans-serif;
+  font-size: $basefontsize;
 }
 
 header {
@@ -27,16 +28,24 @@ header {
 
 article {
   header {
+    margin-top: 1em;
+    margin-bottom: .5em;
        h1 {
-        background-color: #aadd99;
-        font-size: $baseheadersize - 1;
+        //background-color: #aadd99;
+        font-size: $baseheadersize - 2;
         margin-bottom: 0;
        }
        h2 {
-        font-size: $baseheadersize - 2;
+        font-size: $baseheadersize - 3;
         margin-top: 0;
         margin-bottom: 0;
        }
+  }
+  h1 {
+    font-size: $baseheadersize - 2;
+  }
+  h2 {
+    font-size: $baseheadersize - 3;
   }
 
 }
